@@ -4,51 +4,51 @@ function Contact() {
   return (
     <div>
       
-        <section id="contact" class="section">
-            <div class="text-center">
-                <h2 class="mb-5">Inquiry Form</h2>
+        <section id="contact" className="section">
+            <div className="text-center">
+                <h2 className="mb-5">Inquiry Form</h2>
             </div>
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <div class="card p-4 shadow-sm">
+            <div className="row">
+                <div className="col-lg-8 mx-auto">
+                    <div className="card p-4 shadow-sm">
                         <form action="#">
-                            <div class="row">
-                                <div class="col-md-6 mb-3">
-                                    <label for="name" class="form-label">Name:</label>
-                                    <input type="text" class="form-control" id="name" name="name" required/>
+                            <div className="row">
+                                <div className="col-md-6 mb-3">
+                                    <label for="name" className="form-label">Name:</label>
+                                    <input type="text" className="form-control" id="name" name="name" required/>
                                 </div>
-                                <div class="col-md-6 mb-3">
-                                    <label for="lastname" class="form-label">Last Name:</label>
-                                    <input type="text" class="form-control" id="lastname" name="lastname" required />
+                                <div className="col-md-6 mb-3">
+                                    <label for="lastname" className="form-label">Last Name:</label>
+                                    <input type="text" className="form-control" id="lastname" name="lastname" required />
                                 </div>
                             </div>
-                            <div class="mb-3">
-                                <label for="email" class="form-label">Email:</label>
-                                <input type="email" class="form-control" id="email" name="email" required/>
+                            <div className="mb-3">
+                                <label for="email" className="form-label">Email:</label>
+                                <input type="email" className="form-control" id="email" name="email" required/>
                             </div>
-                            <div class="mb-3">
-                                <label for="phone" class="form-label">Phone No.:</label>
-                                <input type="tel" class="form-control" id="phone" name="phone" required />
+                            <div className="mb-3">
+                                <label for="phone" className="form-label">Phone No.:</label>
+                                <input type="tel" className="form-control" id="phone" name="phone" required />
                             </div>
-                            <div class="mb-3">
-                                <label for="subject" class="form-label">Subject:</label>
-                                <select class="form-select" id="subject" name="subject" required>
+                            <div className="mb-3">
+                                <label for="subject" className="form-label">Subject:</label>
+                                <select className="form-select" id="subject" name="subject" required>
                                     <option value="general">General Inquiry</option>
                                     <option value="feedback">Feedback</option>
                                     <option value="support">Support</option>
                                 </select>
                             </div>
-                            <div class="mb-3">
-                                <label for="message" class="form-label">Message:</label>
-                                <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                            <div className="mb-3">
+                                <label for="message" className="form-label">Message:</label>
+                                <textarea className="form-control" id="message" name="message" rows="4" required></textarea>
                             </div>
-                            <div class="mb-3">
-                                <label for="file" class="form-label">Upload your file:</label>
-                                <input type="file" class="form-control" id="file" name="file"
+                            <div className="mb-3">
+                                <label for="file" className="form-label">Upload your file:</label>
+                                <input type="file" className="form-control" id="file" name="file"
                                     accept=".jpg, .jpeg, .png, .pdf"/>
                             </div>
-                            <div class="text-center">
-                                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                            <div className="text-center">
+                                <button type="submit" className="btn btn-primary btn-lg">Submit</button>
                             </div>
                         </form>
                     </div>

@@ -3,15 +3,15 @@ import React from 'react'
 function Grades() {
   return (
     <div>
-         <section id="grades" class="section">
-            <div class="text-center">
-                <h2 class="mb-5">Subjects & Grades</h2>
+         <section id="grades" className="section">
+            <div className="text-center">
+                <h2 className="mb-5">Subjects & Grades</h2>
             </div>
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <div class="table-responsive shadow-sm">
-                        <table class="table table-striped table-hover text-center">
-                            <thead class="table-dark">
+            <div className="row">
+                <div className="col-lg-8 mx-auto">
+                    <div className="table-responsive shadow-sm">
+                        <table className="table table-striped table-hover text-center border-dark">
+                            <thead className="table-dark">
                                 <tr>
                                     <th>Subjects</th>
                                     <th>Marks</th>
