@@ -40,13 +40,16 @@
             padding-top: 5rem;
             padding-bottom: 5rem;
         }
-img {
+ .cards {
   transition: transform 0.3s ease-in-out; /* Smooth transition for the effect */
 }
 
-img:hover {
+.cards:hover {
   transform: scale(1.1); /* Example: Zoom in the image by 10% on hover */
   filter: (100%); /* Example: Apply a grayscale filter on hover */
+}
+.cards{
+  width:90%;
 }
 
 @keyframes App-logo-spin {
