@@ -1,5 +1,5 @@
 import React from 'react';
-import img12 from '../Image/img12.jpg';
+import img12 from '../Image/praveen.jpg';
 
 function About() {
   return (
@@ -9,13 +9,9 @@ function About() {
         <section id="about" className="section">
           <div className="row">
             <div>
-              <img src={img12} alt="IMAGE" className="avatar"
-                width="300"
-                height="280"
-                border-radius=""
-                justify-content="right"
+              <img src={img12} alt="IMAGE" className="img-fluid rounded-circle shadow-lg"
+              style={{ "width": "220px", "height": "220px", "objectPosition": "top", "objectFit": "cover", "border": "3px solid #0dcaf0" }}
               />
-
             </div>
             <div className="col-lg-12 mx-auto text-center">
               <h2 className="mb-4">About Me</h2>
