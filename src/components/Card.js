@@ -10,97 +10,97 @@ import cat8 from '../Image/cat8.jpg';
 import cat9 from '../Image/cat9.jpg';
 import cat10 from '../Image/cat10.jpg';
 
-function Card() {
+function cards() {
     return (
         <div>
             <div className="row row-cols-1 row-cols-md-3 g-4">
                 <div className="col">
-                    <div className="card">
-                        <img src={cat1} className="card-img-top"style={{width: "100%", height:"250px"}} alt="..."/>
-                            <div className="card-body">
-                                <h5 className="card-title">Card title</h5>
-                                <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <div className="cards card">
+                        <img src={cat1} className="cards-img-top"style={{width: "100%", height:"250px"}} alt="..."/>
+                            <div className="cards-body">
+                                <h5 className="cards-title">cards title</h5>
+                                <p className="cards-text">This is a longer cards with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             </div>
                     </div>
                 </div>
                 <div className="col">
-                    <div className="card">
-                        <img src={cat2} className="card-img-top"style={{width: "100%", height:"250px"}} alt="..."/>
-                            <div className="card-body">
-                                <h5 className="card-title">Card title</h5>
-                                <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <div className="cards card">
+                        <img src={cat2} className="cards-img-top"style={{width: "100%", height:"250px"}} alt="..."/>
+                            <div className="cards-body">
+                                <h5 className="cards-title">cards title</h5>
+                                <p className="cards-text">This is a longer cards with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             </div>
                     </div>
                 </div>
                 <div className="col">
-                    <div className="card">
-                        <img src={cat3} className="card-img-top"style={{width: "100%", height:"250px"}} alt="..."/>
-                            <div className="card-body">
-                                <h5 className="card-title">Card title</h5>
-                                <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                    <div className="cards card">
+                        <img src={cat3} className="cards-img-top"style={{width: "100%", height:"250px"}} alt="..."/>
+                            <div className="cards-body">
+                                <h5 className="cards-title">cards title</h5>
+                                <p className="cards-text">This is a longer cards with supporting text below as a natural lead-in to additional content.</p>
                             </div>
                     </div>
                 </div>
                 <div className="col">
-                    <div className="card">
-                        <img src={cat4} className="card-img-top"style={{width: "100%", height:"250px"}} alt="..."/>
-                            <div className="card-body">
-                                <h5 className="card-title">Card title</h5>
-                                <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <div className="cards card">
+                        <img src={cat4} className="cards-img-top"style={{width: "100%", height:"250px"}} alt="..."/>
+                            <div className="cards-body">
+                                <h5 className="cards-title">cards title</h5>
+                                <p className="cards-text">This is a longer cards with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             </div>
                     </div>
                 </div>
                 <div className="col">
-                    <div className="card">
-                        <img src={cat5} className="card-img-top"style={{width: "100%", height:"250px"}} alt="..."/>
-                            <div className="card-body">
-                                <h5 className="card-title">Card title</h5>
-                                <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <div className="cards card">
+                        <img src={cat5} className="cards-img-top"style={{width: "100%", height:"250px"}} alt="..."/>
+                            <div className="cards-body">
+                                <h5 className="cards-title">cards title</h5>
+                                <p className="cards-text">This is a longer cards with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             </div>
                     </div>
                 </div>
                 <div className="col">
-                    <div className="card">
-                        <img src={cat6} className="card-img-top"style={{width: "100%", height:"250px"}} alt="..."/>
-                            <div className="card-body">
-                                <h5 className="card-title">Card title</h5>
-                                <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <div className="cards card">
+                        <img src={cat6} className="cards-img-top"style={{width: "100%", height:"250px"}} alt="..."/>
+                            <div className="cards-body">
+                                <h5 className="cards-title">cards title</h5>
+                                <p className="cards-text">This is a longer cards with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             </div>
                     </div>
                 </div>
                 <div className="col">
-                    <div className="card">
-                        <img src={cat7} className="card-img-top"style={{width: "100%", height:"250px"}} alt="..."/>
-                            <div className="card-body">
-                                <h5 className="card-title">Card title</h5>
-                                <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <div className="cards card">
+                        <img src={cat7} className="cards-img-top"style={{width: "100%", height:"250px"}} alt="..."/>
+                            <div className="cards-body">
+                                <h5 className="cards-title">cards title</h5>
+                                <p className="cards-text">This is a longer cards with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             </div>
                     </div>
                 </div>
                 <div className="col">
-                    <div className="card">
-                        <img src={cat8} className="card-img-top"style={{width: "100%", height:"250px"}} alt="..."/>
-                            <div className="card-body">
-                                <h5 className="card-title">Card title</h5>
-                                <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <div className="cards card">
+                        <img src={cat8} className="cards-img-top"style={{width: "100%", height:"250px"}} alt="..."/>
+                            <div className="cards-body">
+                                <h5 className="cards-title">cards title</h5>
+                                <p className="cards-text">This is a longer cards with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             </div>
                     </div>
                 </div>
                 <div className="col">
-                    <div className="card">
-                        <img src={cat9} className="card-img-top"style={{width: "100%", height:"250px"}} alt="..."/>
-                            <div className="card-body">
-                                <h5 className="card-title">Card title</h5>
-                                <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <div className="cards card">
+                        <img src={cat9} className="cards-img-top"style={{width: "100%", height:"250px"}} alt="..."/>
+                            <div className="cards-body">
+                                <h5 className="cards-title">cards title</h5>
+                                <p className="cards-text">This is a longer cards with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             </div>
                     </div>
                 </div>
                 <div className="col">
-                    <div className="card">
-                        <img src={cat10} className="card-img-top" style={{width: "100%", height:"250px"}} alt="..."/>
-                            <div className="card-body">
-                                <h5 className="card-title">Card title</h5>
-                                <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <div className="cards card">
+                        <img src={cat10} className="cards-img-top" style={{width: "100%", height:"250px"}} alt="..."/>
+                            <div className="cards-body">
+                                <h5 className="cards-title">cards title</h5>
+                                <p className="cards-text">This is a longer cards with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             </div>
                     </div>
                 </div>
@@ -109,4 +109,4 @@ function Card() {
     )
 }
 
-export default Card
+export default cards
