@@ -6,15 +6,23 @@ function Header() {
     return (
         <>
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-                <div className="d-flex" style={{ alignItems: 'left' }}>
-                    <a className="navbar-brand" href="#">Praveen's Portfolio</a>
+                <div className="container-fluid">
+                    <a className="navbar-brand ms-lg-3 text-white fs-4 fw-bold" href="#">Praveen's Portfolio</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
-                    <div className="collapse navbar-collapse justify-content-end text-warning color-white" id="navbarNav">
-                        <Link to="/">Home</Link> | <Link to="/about">About</Link> | <Link to="/skills">Skills</Link> | <Link to="/grades">Grades</Link> | <Link to="/contact">Contact</Link>
+                    <div className="collapse navbar-collapse" id="navbarNav">
+                        <ul className="navbar-nav ms-auto h4">
+                            <li className="nav-item mx-2"><Link className="nav-link" to="/">Home</Link></li>
+                            <li className="nav-item mx-2"><Link className="nav-link" to="/about">About</Link></li>
+                            <li className="nav-item mx-2"><Link className="nav-link" to="/skills">Skills</Link></li>
+                            <li className="nav-item mx-2"><Link className="nav-link" to="/grades">Grades</Link></li>
+                            <li className="nav-item mx-2"><Link className="nav-link" to="/contact">Contact</Link></li>
+                            <li className="nav-item mx-2"><Link className="nav-link" to="/Card">Cards</Link></li>
+                        </ul>
                     </div>
+
                 </div>
 
             </nav> <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
